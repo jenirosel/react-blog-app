@@ -1,0 +1,54 @@
+.register {
+  height: calc(100vh - 50px);
+  background: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ffffffbc,#ffffff70), url(https://www.musicianwithadayjob.com/wp-content/uploads/2018/05/aerial-3246120_1280.jpg);
+  background-size: cover;
+  background-position: bottom;
+  font-family: "Lora", sans-serif;
+}
+
+.registerTitle {
+  font-size: 50px;
+}
+
+.registerForm > label {
+ margin: 10px 0;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > input {
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+
+.registerForm > button {
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: teal;
+}
+
+.register .loginBtn {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
