@@ -4,9 +4,10 @@
 
 .writeImg {
   margin-left: 150px;
-  width: 70wh;
+  width: 70%;
   object-fit: cover;
   border-radius: 20px;
+  max-height: 300px;
 }
 
 .writeForm {

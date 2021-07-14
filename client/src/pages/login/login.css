@@ -41,6 +41,10 @@
   background-color: lightcoral;
 }
 
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(247, 179, 179);
+}
 .registerButton {
   position: absolute;
   top: 60px;
@@ -52,3 +56,4 @@
   border-radius: 10px;
   color: white;
 }
+
